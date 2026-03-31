@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Comentaaê — The Luminous Dialogue</title>
+
+        <!-- O CSS será linkado pelo Dev 2 na branch feature-css -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- ─── NAVBAR ─────────────────────────────────────────────────────────── -->
+        <!-- Barra de navegação principal — fixa no topo da página -->
+        <header class="navbar">
+            <!-- Links de navegação do lado esquerdo -->
+            <nav class="navbar__links">
+                <a href="#features">Features</a>
+                <a href="#services">Services</a>
+                <a href="#wall-of-love">Wall of Love</a>
+                <a href="#pricing">Pricing</a>
+            </nav>
+
+            <!-- Ações do lado direito — login e cadastro -->
+            <div class="navbar__actions">
+                <a href="/login" class="navbar__login">Login</a>
+                <a href="/cadastro" class="btn btn--primary">Get Started</a>
+            </div>
+        </header>
+
+        <!-- ─── HERO ────────────────────────────────────────────────────────────── -->
+        <!-- Seção principal — primeira coisa que o usuário vê ao carregar a página -->
+        <main class="hero">
+            <!-- Logo centralizada no topo do hero -->
+            <div class="hero__logo">
+                <!-- SVG do ícone será inserido pelo Dev 2 via CSS background ou inline -->
+                <img src="logo.svg" alt="Comentaaê" class="hero__logo-img" />
+                <span class="hero__logo-text">Comentaaê</span>
+            </div>
+
+            <!-- Título principal em duas linhas como no design -->
+            <h1 class="hero__title">
+                <span class="hero__title--white">The Luminous Dialogue</span>
+                <span class="hero__title--line2"> Your <span class="hero__title--purple">Community</span> Deserves </span>
+            </h1>
+
+            <!-- Subtítulo descritivo -->
+            <p class="hero__subtitle">
+                Comentaaê transforms raw feedback into sophisticated brand narratives.<br />
+                Elevate every conversation with our premium engagement layer.
+            </p>
+
+            <!-- Botões de ação -->
+            <div class="hero__actions">
+                <a href="/cadastro" class="btn btn--primary">Get Started</a>
+                <a href="#demo" class="btn btn--secondary">View Demo</a>
+            </div>
+        </main>
+
+        <!-- ─── FOOTER ───────────────────────────────────────────────────────────── -->
+        <!-- Rodapé simples com copyright -->
+        <footer class="footer">
+            <p class="footer__text">© 2026 Comentaaê. The Luminous Dialogue.</p>
+        </footer>
+
+        <!-- O JavaScript será linkado pelo Dev 3 na branch feature-js -->
+        <script src="script.js"></script>
+    </body>
+</html>
